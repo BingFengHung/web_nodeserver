@@ -1,5 +1,6 @@
-const express = require('express');
 require('dotenv').config();
+const express = require('express');
+const mysql = require('./db/mysqlConfig');
 
 const app = new express();
 
