@@ -1,0 +1,27 @@
+{
+  "name": "web_nodeserver",
+  "version": "1.0.0",
+  "description": "Node WebServer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BingFengHung/web_nodeserver.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BingFengHung/web_nodeserver/issues"
+  },
+  "homepage": "https://github.com/BingFengHung/web_nodeserver#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
